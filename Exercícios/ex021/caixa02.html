@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: white;
+            font: normal 1.1em sans-serif;
+
+        }
+        main{
+            justify-content: center;
+            height: auto;
+            width: 500px;
+        }
+        main > p{
+            text-align: justify;
+        }
+        header{
+            background-color: #201858;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            height: auto;
+            width: 500px;
+        }
+        footer{
+            background-color: #615290;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            height: 30px;
+            width: 500px;
+        }
+        article{
+            background-color: aliceblue;
+        }
+        article > h2{
+            color: #393175;
+        }
+        nav > a:hover{
+            color: rgb(90, 216, 86);
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        a{
+            background-color: #5D5595;
+            color: aliceblue;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daily News</h1>
+        <nav>
+            <a href="#">Sports</a>
+            <a href="#">Foods</a>
+            <a href="#">Weather</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Is <em>Bolsonaro</em> in prison?</h2>
+                <p>The former President of Brazil, <em>Bolsonaro</em>, was sentenced to <strong>27 years in prison</strong> on November 9, 2025.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum odit neque ipsum et sint corrupti, expedita assumenda suscipit repudiandae voluptatum non sunt fugiat laudantium iste quaerat nesciunt maxime fuga!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem nesciunt illo veniam itaque, provident officiis iste corrupti quam inventore veritatis voluptate neque fugit. Porro eveniet labore ut dolorem doloribus!</p>
+                <q>Gabriela Boechat e Davi Vittorazzi, da CNN, Brasília</q>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>By someone</p>
+    </footer>
+</body>
+</html>
