@@ -3,6 +3,6 @@
     src: url('../fonts/idroid.otf') format('opentype');
 }
 
-h2{
+h2, h1{
     font-family: 'iDroid', sans-serif;
 }
