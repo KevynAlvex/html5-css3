@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'iDroid';
+    src: url('../fonts/idroid.otf') format('opentype');
+}
+
+h2, h1{
+    font-family: 'iDroid', sans-serif;
+}
